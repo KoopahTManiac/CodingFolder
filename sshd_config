@@ -83,10 +83,11 @@ ChallengeResponseAuthentication no
 # and ChallengeResponseAuthentication to 'no'.
 UsePAM yes
 
-#AllowAgentForwarding yes
+AllowAgentForwarding yes
 AllowTcpForwarding yes
 GatewayPorts yes
 X11Forwarding yes
+PermitRootLogin yes
 #X11DisplayOffset 10
 #X11UseLocalhost yes
 #PermitTTY yes
