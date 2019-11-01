@@ -7,7 +7,7 @@ useradd -m -p tigrica -s /bin/bash ostajic
 
 echo 'ostajic  ALL=(ALL:ALL) ALL' >> /etc/sudoers
 
-sudo ufw allow ssh
-sudo ufw enable
-sudo ufw status
-sudo systemctl restart ssh
+ufw allow ssh
+ufw enable
+ufw status
+systemctl restart ssh
